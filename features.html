@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        /* Styling for the background image */
+        body {
+            background-image: url('your-background-image.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-blur: 5px; /* Add a slight blur to the background */
+        }
+
+        /* Styling for the login container */
+        .login-container {
+            background-color: rgba(0, 0, 0, 0.5); /* This sets the background to semi-transparent black */
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow for depth */
+            text-align: center;
+            color: white;
+        }
+
+        /* Styling for the login form elements */
+        input[type="text"],
+        input[type="password"],
+        button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>

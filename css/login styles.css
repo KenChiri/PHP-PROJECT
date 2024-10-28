@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bubblegum+Sans&family=Caveat:wght@500&family=Oooh+Baby&family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    background-image: url("pat.jpg"); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 5em;
+    padding: 0;
+    margin: 8%;
+    font-weight: 700;
+    text-decoration: wavy;
+    color: rgb(142, 182, 189);
+}
+
+#step1, #step2, #step3, #step4 {
+    background-color: rgba(7, 13, 14); /* Added RGBA to control opacity */
+    height: 600px;
+    width: 800px;
+    padding: 10px;
+    color: rgb(184, 247, 241);
+    text-align: left;
+    padding-left: 50px;
+    border-radius: 0px 20px 20px 0px;
+    font-family: 'Bubblegum Sans', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signin {
+    background-color: rgba(7, 13, 14); /* Control opacity with RGBA */
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    color: rgb(142, 182, 189);
+    border-radius: 20px 0px 0px 20px;
+    font-family: 'Bubblegum Sans', cursive;
+    padding-left: 30px;
+}
+
+button {
+    background-color: rgb(33, 44, 45);
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    opacity: 1;
+}
+
+button:hover {
+    background-color: rgb(43, 69, 69);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+img {
+    max-height: 300px;
+    min-width: 200px;
+}
+
+.signin input[type="text"],
+.signin input[type="email"],
+.signin input[type="password"] {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(51, 61, 62);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+#step1 input[type="text"],
+#step1 input[type="email"],
+#step1 input[type="password"] {
+    width: 150px;
+    height: 25px;
+    background-color: rgb(132, 169, 174);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+a {
+    text-align: right;
+    text-decoration: none;
+    color: rgb(250, 223, 91);
+}
+
+a:hover {
+    color: rgb(142, 182, 189);
+}
+
+
+
+p {
+    color: red;
+}
+
+.signupSuccess {
+    color: greenyellow;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    height: 30px;
+    padding: 8px;
+    text-align: center;
+    color: whitesmoke;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar track */
+}
+
+::-webkit-scrollbar-track {
+    background: #271c25; /* Set the background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888585; /* Set the color of the thumb */
+    border-radius: 10px;
+    width: 10px; /* Set the width of the thumb to match the track */
+    height: 5px;
+}
